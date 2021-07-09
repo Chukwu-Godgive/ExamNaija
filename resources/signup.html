@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="HandheldFriendly" content="true">
+        <title>Sign Up</title>
+        <link href="css/signup.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        
+        <div class="container">
+
+            <div class="signup-logo"><a href="../index.html"><img src="imgs/logo.svg"></a></div>
+            
+
+            <div class="form">
+
+                <div class="sub-form">
+
+                    <h1>Biodata</h1>
+
+                <table class="table-form">
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" placeholder="Full name" id="getFullName"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" placeholder="Email Address" id="getEmail">
+                            <p id="confrimErroMessage"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" placeholder="Password" id="getPassword"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td><input type="password" placeholder="Confirm Password" id="getConfirmPassword"></td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="button" id="registerButton" onclick="signUpValidator()">Register</button></td>
+                    </tr>
+                </table>
+
+                <p>Already have an <a href="./login.html">account ?</a></p>
+
+                </div>
+
+            </div>
+            
+            <!-- This Clears the column of forms and profile upload -->
+            <div class="clear-float"></div> 
+
+
+
+            <div class="footer">
+                <p>CopyRight &COPY; 2021 All right reserved <span>ExamNaija</span></p>
+            </div>
+
+        </div>
+        
+    </body>
+    <script src="./Script/validator.js"></script>
+    
+</html>

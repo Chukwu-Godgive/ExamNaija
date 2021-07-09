@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: rgb(0, 104, 55);
+}
+
+/*Logo section, it controls image of logo*/
+.logo {
+    width: 150px;
+    padding-top: 50px;
+}
+
+.exam-content {
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.exam-content h1, h4 {
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer span {
+    color: rgb(0, 104, 55);
+}
+
+label {
+    display: block;
+    font-size: 17px;
+}
+.options {
+    margin-right: 25px;
+}
+
+#form1 li{
+    margin: 25px 0 10px 0;
+    
+}
+
+.main-buttons {
+    margin: 0 auto;
+    
+}
+.button {
+    background-color: rgb(0, 104, 55);
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.subject {
+    display: inline-flex;
+    font-size: 25px;
+    font-weight: bold;
+}

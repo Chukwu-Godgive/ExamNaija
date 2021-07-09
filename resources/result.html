@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="HandheldFriendly" content="true">
+        <title>Result</title>
+        <link href="css/result.css" rel="stylesheet">
+    </head>
+    <body>
+            <div class="container">
+                <a href="../index.html"><img src="imgs/logo.svg" class="logo"></a>
+
+                <div class="sub-container">
+                    <div class="navigation">
+                        <img src="" width="150px" class="profilePix">
+                        <br>
+                        <a href="dashboard.html"><button><h1>Dashboard</h1></button></a>
+                        <br>
+                        <a href="exam.html"><button><h1>Exam</h1></button></a>
+                        <br>
+                        <a href="result.html"><button><h1>Result</h1></button></a>
+                        <br>
+                        <a href="logout.html"><button><h1>Logout</h1></button></a>
+                    </div>
+                    <div class="dashboard-content">
+                        
+                        <!-- This is where the result will go to -->
+                        <div>
+                            <button id="checkResultOutput" onclick="checkitout()" class="button">Check Result</button>
+                        </div>
+                        
+                        <h4 class="subject-infor">Subject: <i>Computer Studies</i></h4>
+                        <div class="exam-infor">
+                        <p>Score: <span id="score"></span></p>
+                        <p>Grade: <span id="grade"></span></p>
+                        </div>
+                      
+                    </div>
+                </div>
+
+                <div class="clearfloat"></div>
+
+            </div>
+            <div class="footer">
+                <p>CopyRight &COPY; 2021 All right reserved <span>ExamNaija</span></p>
+            </div>
+    </body>
+    <script src="script/exam.js"></script>
+</html>

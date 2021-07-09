@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    
+}
+
+.signup-logo{
+    width: 150px;
+}
+
+.profile-upload {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.form {
+    margin-top: 50px;
+}
+.form h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(0, 104, 55);
+}
+
+.form p {
+    font-size: 17px;
+}
+
+.sub-form {
+    float: left;
+}
+
+.button {
+    background-color: rgb(0, 104, 55);
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.table-form td{
+    padding-bottom: 25px;
+}
+
+.table-form input, select{
+    margin-left: 50px;
+    padding: 5px 100px 5px 10px;
+}
+
+.table-form button{
+    text-align: center;
+}
+
+.clear-float:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 150px;
+    text-align: center;
+}
+.footer span {
+    color: rgb(0, 104, 55);
+}
+
+#confrimErroMessage {
+    color: red;
+    font-size: 12px;
+}
